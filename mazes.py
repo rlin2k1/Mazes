@@ -26,9 +26,6 @@ r = requests.post(token_url, student_uid).json()
 access_token = r['token']
 print("ACCESS TOKEN: " + access_token)
 
-# ---------------------------------------------------------------------------- #
-# Solve the Maze!
-# ---------------------------------------------------------------------------- #
 maze_url = "http://ec2-34-216-8-43.us-west-2.compute.amazonaws.com/game?token=" + access_token
 r = requests.get(maze_url).json()
 status = r['status']
@@ -126,6 +123,9 @@ def solve_maze(url, direction, h):
         current_location1[0] = current_location1[0] + 1
     return False
 
+# ---------------------------------------------------------------------------- #
+# Solve the Maze!
+# ---------------------------------------------------------------------------- #
 while(status != "FINISHED"):
     maze_size = r['maze_size']
     current_location1 = r['current_location']
