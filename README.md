@@ -1,5 +1,5 @@
 # Mazes
-UPE Fall 2018 Coding Challenge
+Solving Levels of Mazes with HTTP: POST and GET Requests
 
 ## Purpose
 * https://gist.github.com/austinguo550/381d5e30d825b90900ef60fa39a806f4?fbclid=IwAR3YDHJuzC5Dx_CD88mveTweXhZCvSpcTZTBhYGOEhc8rBmzI8VwRrlo7sc#getting-started<br>
