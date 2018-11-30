@@ -18,7 +18,7 @@ UPE Fall 2018 Coding Challenge
 To solve the maze, run: python mazes.py<br>
 
 ## Resources
-*Python Requests: https://www.pythonforbeginners.com/requests/using-requests-in-python
-*Node.js-Express: https://scotch.io/tutorials/use-expressjs-to-get-url-and-post-parameters
-*C++: https://kukuruku.co/post/a-cheat-sheet-for-http-libraries-in-c/
+*Python Requests: https://www.pythonforbeginners.com/requests/using-requests-in-python<br>
+*Node.js-Express: https://scotch.io/tutorials/use-expressjs-to-get-url-and-post-parameters<br>
+*C++: https://kukuruku.co/post/a-cheat-sheet-for-http-libraries-in-c/<br>
 *Backtracking and Mazes: https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/
