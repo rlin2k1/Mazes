@@ -13,7 +13,15 @@ Date Created:
 import requests #Send HTTP/1.1 Requests
 import json #For JSON Parsing
 
-def solve_maze_levels():
+def solve_maze_levels(void):
+    """
+    Solves levels of mazes with HTTP: POST and GET Requests.
+    
+    Args:
+        void (none): No parameter needed.
+    Returns:
+        (void): No output. Print statements on current status of the maze.
+    """
     direction_dict = {"RIGHT": "LEFT", "LEFT": "RIGHT", "UP": "DOWN", "DOWN": "UP"}
     # ---------------------------------------------------------------------------- #
     # Obtain the Access Token for the Rest of the Simulation
