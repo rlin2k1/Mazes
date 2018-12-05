@@ -20,6 +20,15 @@ current_location = [0, 0]
 length = 9
 
 def solve_maze(maze, direction):
+    """
+    Solves a maze - manually.
+    
+    Args:
+        maze (List of Lists): 2-D List Detailing Maze State
+        direction (String): The direction to take the next step in.
+    Returns:
+        (Boolean): Detailing if the maze was solved or not.
+    """
     print(current_location)
     result = ""
     if(direction == "UP"):
@@ -94,7 +103,15 @@ def solve_maze(maze, direction):
     solution_path.remove(tuple(current_loc))
     return False
 
-def main():
+def main(void):
+    """
+    Main function for the python file.
+    
+    Args:
+        void (none): No parameter needed.
+    Returns:
+        (int): Status code of the main function.
+    """
     #maze = [[0, 0, 1]]
     maze = [
     [0, "W", "W", 0, 0, "W", 0, 0, 0],
