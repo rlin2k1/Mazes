@@ -98,7 +98,7 @@ def solve_maze_levels(void):
             if(solve_maze(url, "RIGHT", current_location1)):
                 return True
             else:
-                maze[current_location1[1]][current_location1[0] + 1] != 'X'
+                maze[current_location1[1]][current_location1[0] + 1] = 'X'
 
         #Go Back One
         new_direction = direction_dict[direction]
