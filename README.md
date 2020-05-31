@@ -1,4 +1,4 @@
-# Mazes
+# Maze Solver
 Solving Levels of Mazes with HTTP: POST and GET Requests
 
 ## Purpose
